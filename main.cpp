@@ -18,5 +18,10 @@ int main()
 
     skiplist.display();
 
-    
+    skiplist.delete_element(10000);
+    skiplist.delete_element(10001);
+
+    std::cout << "skiplist size: " << skiplist.size() << std::endl;
+    skiplist.search_element(10001);
+    skiplist.display();
 }
